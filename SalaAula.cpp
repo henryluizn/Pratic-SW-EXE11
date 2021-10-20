@@ -27,7 +27,6 @@ void SalaAula::setCapcidade(unsigned int capacidade){
 // atualiza o objeto da classe SalaAula e da classe Disciplina utilizando a função "setSala" da classe Disicplina.
 void SalaAula::adicionarDisciplina(Disciplina* disciplina)
 {
-	// disciplina->setSala(this);
 	if (disciplina != nullptr && disciplina->sala != nullptr)
 	{
 		disciplina->sala->removerDisciplina(disciplina);

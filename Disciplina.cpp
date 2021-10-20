@@ -71,7 +71,6 @@ void Disciplina::setSala(SalaAula* sala)
 	this->sala = sala;
 	if (this->sala != nullptr)
 		(this->sala)->disciplinas.push_back(this);
-		// (this->sala)->getDisciplinas().push_back(this);
 }
 
 
